@@ -163,7 +163,7 @@ Welcome to this lab where you'll get hands-on experience with the **Power BI Pro
 1. **Save** in **Power BI Desktop**
 1. Return to **Visual Studio Code** and open the **Source Control** tab. Notice all the code files that resulted from the destructive operation.
     
-    ![vscode-changes-destructive](resources/img/vscode-changes-destructive.png)
+    ![vscode-changes-destructive](resources/img/vscode-changes-destructive-2.png)
     
 1. Normally if working against a PBIX if you make such a change and Save, it's not possible to recover. Specially if the change is on the semantic model. Not with PBIP, because you are using Git you can always discard these changes and it will go back to how it was before the change and perform a full roll back of the entire project to a previous state.
 1. Click the **Discard All Changes** button in the Source Control panel to revert all uncommitted changes:
