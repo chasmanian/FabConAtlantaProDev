@@ -319,12 +319,13 @@ Without the `powerbi-tmdl` skill, the AI is likely to produce incorrect TMDL syn
     
     - `Generate a French translation culture for my model including tables, columns and measures.`      
     - `Move all my measures into a '_MEASURES_' table`
-    - `Optimize the DAX of measure Sales Amount (12M average). But run a trace to ensure the new version is better and returns the same data.`    
+    - `Optimize the DAX of measure 'Sales Amount (12M average)'. Run a trace to ensure the new version is better and returns the same data.`    
 
 > [!TIP]
 > - Each time the agent executes an MCP server tool, it asks for user approval. To avoid being prompted on every execution, select **Allow tools from powerbi-modeling-mcp in this session**. GitHub Copilot will then stop prompting you for this MCP server.
 >   ![copilot-mcp-server-approval](resources/img/copilot-mcp-server-approval.png)
 > - The MCP server can connect to semantic models in Power BI Desktop, Fabric Workspace or PBIP folders. Learn more in [powerbi-modeling-mcp](https://github.com/microsoft/powerbi-modeling-mcp?tab=readme-ov-file#-get-started)
+> - The Power BI Modeling MCP server can only execute modeling operations. It cannot modify other types of Power BI metadata, such as report pages or semantic model elements like diagram layouts.
 
 ## 5. _Optional_ Enforce Team Best Practices Using the Power BI Modeling MCP Server
 
