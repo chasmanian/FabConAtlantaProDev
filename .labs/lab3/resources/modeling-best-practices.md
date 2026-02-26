@@ -1,12 +1,26 @@
-# My Team Modeling Best Practices
+# team-modeling-rules
 
-## General rules
+Quality assessment for Power BI semantic models using prioritized structured rules. Autonomously evaluates model health and generates prioritized, actionable recommendations.
 
-- All measures, tables and columns must have a business-friendly description. Incorporate business verbiage of the COMPANY in the descriptions. (See [COMPANY verbiage](#company-verbiage))
-- Data Source location (e.g. folder) should be configured as a semantic model parameter
-- Make sure model includes an `About` table that describes the Author and version of the model. See [About](#about-table) for details of how to create the table if not exists.
-- All Measures must be UPPERCASE
-- All Measures must have a format string
+## Rules
+
+### Critical
+
+- Schema design should follow star-schema: Fact/dimension separation, dedicated Date table, no snowflaking, minimal calculated tables
+- Explicit measures enforced for all aggregatable numeric columns, and base column should be hidden
+- Measure should include a `formatString` definition
+- Columns should include appropriate summarizeBy settings (e.g. Quantity > Sum; Stock Qty > Max), hidden foreign keys, no accidental aggregation
+- Repeated DAX patterns should be centralized using DAX UDF functions.
+  
+### Important
+
+- Model object clarity and documentation coverage: measures, columns and tables should include a business friendly description. Incorporate business verbiage of the COMPANY in the descriptions. (See [COMPANY verbiage](#company-verbiage))
+- When using Power Query code data source references (e.g. Server; Folder) should be configured as a semantic model parameter
+- Review modeling naming convention for consistency, if inconsistent or creating a new model use the [Naming Conventions](#naming-conventions)
+  
+### Nice to Have
+
+- Model shall include an `About` table that describes the Author and version of the model. See [About](#about-table) for details of how to create the table if not exists.
 
 ## Naming Conventions
 
@@ -21,7 +35,6 @@
 - Object names must not contain tabs, line breaks, or other control characters
 - Object names must not start or end with a space
 - **Critical**: Always use exact case-sensitive names when referencing objects
-- **Verify names with List operations** before any update/rename operations
 
 ## Company verbiage
 
@@ -46,18 +59,21 @@
   - Key: Text
   - Value: Text
   - Order: Number
-- Use the following PowerQuery code as partition:
-    ```powerquery
-    let
-        Source = #table({ "Key", "Value" },{
-            { "Developed by", "Microsoft" },
-            { "Version", "1.0" },
-            { "Description", "Sales.pbip" },
-            { "Last Refresh", DateTime.ToText(DateTime.LocalNow(), "yyyy-MM-dd HH:mm:ss") }
-        }),
-        #"Added Index" = Table.AddIndexColumn(Source, "Order", 1, 1),
-        #"Changed Type" = Table.TransformColumnTypes(#"Added Index",{{"Key", type text},  {"Value", type text},{"Order", Int64.Type}}),
-        #"Reordered Columns" = Table.ReorderColumns(#"Changed Type",{"Key", "Value", "Order"})
-    in
-        #"Reordered Columns"
-    ```
+- Use the following partition configuration:  
+  - mode: Import
+  - partition source type: m
+  - M expression source:
+        ```powerquery
+        let
+            Source = #table({ "Key", "Value" },{
+                { "Developed by", "Microsoft" },
+                { "Version", "1.0" },
+                { "Description", "Sales.pbip" },
+                { "Last Refresh", DateTime.ToText(DateTime.LocalNow(), "yyyy-MM-dd HH:mm:ss") }
+            }),
+            #"Added Index" = Table.AddIndexColumn(Source, "Order", 1, 1),
+            #"Changed Type" = Table.TransformColumnTypes(#"Added Index",{{"Key", type text},  {"Value", type text},{"Order", Int64.Type}}),
+            #"Reordered Columns" = Table.ReorderColumns(#"Changed Type",{"Key", "Value", "Order"})
+        in
+            #"Reordered Columns"
+        ```
