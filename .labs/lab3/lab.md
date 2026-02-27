@@ -69,14 +69,14 @@ This lab shows how AI can supercharge your Power BI development — from batch-e
 
     ![vscode-copilot-skill-list](resources/img/vscode-copilot-skill-list.png)
 
-4. Select a reasoning model such as `Claude Sonnet 4.6` or `GPT-5.1`. If its first time using GitHub Copilot, you can sign-up to a [**GitHub Copilot Pro trial**](https://github.com/github-copilot/pro). 
+4. Select a reasoning model such as `Claude Sonnet 4.5` or `GPT-5.1`. If its first time using GitHub Copilot, you can sign-up to a [**GitHub Copilot Pro trial**](https://github.com/github-copilot/pro). 
 
     ![vscode-copilot-pick-model](resources/img/vscode-copilot-pick-model.png)
     
     In case of premium models not being available select `GPT-5 mini` model.
 
 > [!TIP]
-> - It is recommended to start a [GitHub Copilot Pro trial](https://github.com/github-copilot/pro) subscription to get to premium reasoning models such as `Claude Sonnet 4.6`, which produce significantly better results for Agentic Power BI development tasks. See [model-comparison](https://docs.github.com/en/copilot/reference/ai-models/model-comparison) for more information.
+> - It is recommended to start a [GitHub Copilot Pro trial](https://github.com/github-copilot/pro) subscription to get to premium reasoning models such as `Claude Sonnet 4.5`, which produce significantly better results for Agentic Power BI development tasks. See [model-comparison](https://docs.github.com/en/copilot/reference/ai-models/model-comparison) for more information.
 > - In [**Agent mode**](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode) **GitHub Copilot** can analyze all your code folder and apply edits to your files.
 
 ## 2. Batch Changes Using AI and TMDL Scripts
@@ -105,7 +105,7 @@ This lab shows how AI can supercharge your Power BI development — from batch-e
 ### Edit the TMDL script using GitHub Copilot AI agent
 
 1. Open **GitHub Copilot Chat** by clicking the Copilot icon next to the search bar or pressing `CTRL+SHIFT+I`.
-1. Select the model **Claude Sonnet 4.6** if available, or **OpenAI GPT-5 mini** as an alternative.
+1. Select the model **Claude Sonnet 4.5** if available, or **OpenAI GPT-5 mini** as an alternative.
 1. Make sure the `script.tmdl` file is open and selected in the editor.
 1. Create a new chat session selecting **New Chat** in the top of the chat window
    ![copilot-new-session](resources/img/copilot-new-session.png)
@@ -120,7 +120,7 @@ This lab shows how AI can supercharge your Power BI development — from batch-e
 
     ![copilot-skill-loaded](resources/img/copilot-skill-loaded.png)
 
-    If a premium model (e.g. `Claude Sonnet 4.6`) is not used, the agent is likely to skip loading the `powerbi-tmdl` skill, hallucinate, and write descriptions in the wrong location - resulting in invalid TMDL.
+    If a premium model (e.g. `Claude Sonnet 4.5`) is not used, the agent is likely to skip loading the `powerbi-tmdl` skill, hallucinate, and write descriptions in the wrong location - resulting in invalid TMDL.
 
     ![copilot-invalid-tmdl](resources/img/copilot-invalid-tmdl.png)
 
@@ -152,7 +152,7 @@ This lab shows how AI can supercharge your Power BI development — from batch-e
     ![tmdlview-measure-description-confirm](resources/img/tmdlview-measure-description-confirm.png)
 
 > [!TIP]
-> - The AI model you select directly influences the quality and relevance of the responses you receive. For the best results, choose a deep-reasoning model such as `GPT-5.1` or `Claude Sonnet 4.6`. You can find more details about available models in the [model-comparison](https://docs.github.com/en/copilot/reference/ai-models/model-comparison).
+> - The AI model you select directly influences the quality and relevance of the responses you receive. For the best results, choose a deep-reasoning model such as `GPT-5.1` or `Claude Sonnet 4.5`. You can find more details about available models in the [model-comparison](https://docs.github.com/en/copilot/reference/ai-models/model-comparison).
 > - Creating a [new chat session](https://code.visualstudio.com/docs/copilot/chat/chat-sessions#_start-a-new-chat-session) clears the history and starts a fresh context window. You can monitor [context window usage](https://code.visualstudio.com/docs/copilot/chat/copilot-chat-context#_monitor-context-window-usage) in the chat input box.
 
 ### Review the skill instructions
@@ -331,7 +331,7 @@ Without the `powerbi-tmdl` skill, the AI is likely to produce incorrect TMDL syn
 
 ✅ **Goal**: Connect **GitHub Copilot** directly to a running Power BI semantic model using the **Power BI Modeling MCP**, review a semantic model against team guidelines, and apply changes through the MCP.
 
-⚠️ **Warning**: It is recommended to complete this exercise using a premium model such as `Claude Sonnet 4.6`. When using non-premium models, such as `GPT-5 mini`, there is a high likelihood of hallucinations.
+⚠️ **Warning**: It is recommended to complete this exercise using a premium model such as `Claude Sonnet 4.5`. When using non-premium models, such as `GPT-5 mini`, there is a high likelihood of hallucinations.
 
 # Review the model against team guidelines
 
