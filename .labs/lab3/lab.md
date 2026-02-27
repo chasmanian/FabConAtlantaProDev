@@ -336,7 +336,7 @@ Without the `powerbi-tmdl` skill, the AI is likely to produce incorrect TMDL syn
 # Review the model against team guidelines
 
 1. Open [.labs/lab1/resources/Sales.pbix](../lab1/resources/Sales.pbix) in **Power BI Desktop**.
-1. Copy the file [`resources/modeling-best-practices.md`](resources/modeling-best-practices.md) into your lab folder.
+1. Copy the file [`resources/team-modeling-rules`](resources/team-modeling-rules) into your lab folder.
    
     Your `Lab3/` folder should look like this:
 
@@ -348,13 +348,13 @@ Without the `powerbi-tmdl` skill, the AI is likely to produce incorrect TMDL syn
     │       │   └── SKILL.md
     │       ...    
     ├── ...    
-    ├── modeling-best-practices.md
+    ├── team-modeling-rules
     ```
 
 3. In the Copilot chat, type the following prompt:
 
     ```    
-    Load my team modeling guidelines in `modeling-best-practices.md`, review my semantic model and tell me what should I change
+    Load my team modeling guidelines in `team-modeling-rules`, review my semantic model and tell me what should I change
     ```    
 
    Observe how the agent uses the **MCP** to analyze the semantic model:
@@ -377,10 +377,10 @@ Without the `powerbi-tmdl` skill, the AI is likely to produce incorrect TMDL syn
       
 5. Go back to **Power BI Desktop** and verify that the changes have been applied to the semantic model. 
 
-6. _Optional_ Change the `modeling-best-practices.md` with new rules, prompt the agent to review the model again and check if the new rules are applied.
+6. _Optional_ Change the `team-modeling-rules` with new rules, prompt the agent to review the model again and check if the new rules are applied.
 
 > [!TIP]
-> - This is a powerful pattern for team governance. By maintaining a `modeling-best-practices.md` file in your repository, any team member can ask the AI to audit a semantic model against the team's standards at any time.
+> - This is a powerful pattern for team governance. By maintaining a `team-modeling-rules` file in your repository, any team member can ask the AI to audit a semantic model against the team's standards at any time.
 
 ## ✅ Wrap-up
 

@@ -17,7 +17,15 @@ Quality assessment for Power BI semantic models using prioritized structured rul
 - Model object clarity and documentation coverage: measures, columns and tables should include a business friendly description. Incorporate business verbiage of the COMPANY in the descriptions. (See [COMPANY verbiage](#company-verbiage))
 - When using Power Query code data source references (e.g. Server; Folder) should be configured as a semantic model parameter
 - Review modeling naming convention for consistency, if inconsistent or creating a new model use the [Naming Conventions](#naming-conventions)
-  
+- When using Web.Contents PowerQuery connector consider using the RelativePath to avoid configuring multiple connections
+  ```powerquery
+    Web.Contents(
+        "https://baseurl",
+        [
+            RelativePath = "relative-path"            
+        ]
+    )
+  ```
 ### Nice to Have
 
 - Model shall include an `About` table that describes the Author and version of the model. See [About](#about-table) for details of how to create the table if not exists.
