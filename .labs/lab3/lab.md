@@ -86,12 +86,12 @@ This lab shows how AI can supercharge your Power BI developments - from batch-ed
     ```
     Tell me your skills
     ```
-7. Copilot should tell you it knows the skills you copied early to `.github/skills/` folder
+7. Copilot should tell you it knows the skills you copied earlier to `.github/skills/` folder
 
     ![vscode-copilot-skill-list](resources/img/vscode-copilot-skill-list.png)
 
 > [!TIP]
-> - It is recommended to start a [GitHub Copilot Pro trial](https://github.com/github-copilot/pro) subscription to get to premium reasoning models such as `Claude Sonnet 4.6`.
+> - It is recommended to start a [GitHub Copilot Pro trial](https://github.com/github-copilot/pro) subscription to access premium reasoning models such as `Claude Sonnet 4.6`.
 > - The LLM model you select directly influences the quality of the outputs you get from AI agents. For the best results, choose a deep-reasoning model such as `GPT-5.1` or `Claude Sonnet 4.6`. See [model-comparison](https://docs.github.com/en/copilot/reference/ai-models/model-comparison) for more information.
 > - Skills are a powerful and standard reusable way to provide AI the domain-specific knowledge it needs to do the work. By placing skill files in your project, every team member benefits from consistent, high-quality AI output - without needing to remember complex prompts. Learn more about skills in [agentskills.io](https://agentskills.io/home). 
 > - Find more Power BI skill examples in [aka.ms/powerbi-agentic](https://aka.ms/powerbi-agentic)
@@ -291,7 +291,7 @@ Without the `powerbi-tmdl` skill, the AI is likely to produce incorrect TMDL syn
 
     ![copilot-mcp-server-connect](resources/img/copilot-mcp-server-connect.png)
 
-    If you still have the PBIP folder in `Lab3/` the Agent might get confused and connect to the TMDL files in the `.SemanticModel/` folder. In that case you may need to be more explicit and say in the prompt that you don't want to connect to PBIP folder nor use TMDL:
+    If you still have the PBIP folder in `Lab3/` the Agent might get confused and connect to the TMDL files in the `.SemanticModel/` folder. In that case, you may need to be more explicit and say in the prompt that you don't want to connect to PBIP folder nor use TMDL:
 
     ```
     Connect to 'Sales' Power BI Desktop local instance.
