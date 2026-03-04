@@ -31,7 +31,7 @@ By the end of this workshop, you will:
     - Access to a Fabric Capacity or [Trial](https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial)
     - Access to create and authorize a service principal in Fabric for automated CICD deployment. See [Create a Microsoft Entra ID app](https://learn.microsoft.com/en-us/rest/api/fabric/articles/get-started/create-entra-app).    
   - [GitHub account](https://github.com/signup)
-  - [GitHub Copilot Free or Pro](https://github.com/github-copilot/pro) [_Optional_]
+  - [GitHub Copilot Free or Pro](https://github.com/github-copilot/pro)
 - Software
   - [Power BI Desktop](https://pbi.onl/download)
   - [Visual Studio Code](https://code.visualstudio.com/download)

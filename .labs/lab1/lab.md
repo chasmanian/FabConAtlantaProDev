@@ -111,7 +111,7 @@ Welcome to this lab where you'll get hands-on experience with the **Power BI Pro
 ### Initialize local Git Repo for the PBIP folder
 
 1. Open **Visual Studio Code** and go to **File > Open Folder...** to open the PBIP folder.
-2. Navigate to the **Source Control** tab and click **Initialize Repository** button:
+2. Navigate to the **Source Control** tab (`CTRL+SHIFT+G`) and click **Initialize Repository** button:
 
     ![vscode git init](resources/img/vscode-git-init.png)
 
