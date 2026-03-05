@@ -38,3 +38,4 @@ By the end of this workshop, you will:
   - [Git for Windows](https://gitforwindows.org/)
   - [Python 3.12](https://www.python.org/downloads/release/python-31213/)
     - [Python 3.12 in the Windows Store](https://apps.microsoft.com/detail/9ncvdn91xzqp)
+  - Use this form to request for Fabric and Copilot license: https://forms.office.com/e/47Jx6CqPSq

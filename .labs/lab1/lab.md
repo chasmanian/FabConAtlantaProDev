@@ -8,7 +8,7 @@ This lab gives you hands-on experience with the **Power BI Project (PBIP)** form
 
 - How the **PBIP folder structure** maps to the report and semantic model you see in Power BI Desktop and the Fabric service
 - How to use **Git** to version-control a Power BI project, track changes, and restore previous versions
-- How to **publish a PBIP** to a Fabric workspace from the command line
+- How to **publish a PBIP** to a Fabric workspace 
 - How to read and edit a semantic model as code with **TMDL** (Tabular Model Definition Language)
 - How to read and edit a report as code with **PBIR** (Power BI Report format)
 
