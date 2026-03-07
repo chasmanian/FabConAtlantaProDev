@@ -541,7 +541,12 @@ TMDL View in Power BI Desktop allows you to view, edit, and apply changes to a s
 
    Alternatively, you can right-click an object in the Data view and select Script TMDL to new tab or to the clipboard, shown in the following image:
 
-   <img width="232" height="82" alt="script right click" src="https://github.com/user-attachments/assets/8db260b1-7c52-4252-a195-298dddd31983" />
+   <img width="332" height="354" alt="scriptToTMDL" src="https://github.com/user-attachments/assets/e58393cd-bd3b-4833-b6db-332729a115e8" />
+
+3. Select a different semantic object (this can be a different table, measure or column) and drag it into the editor. A new tab will be created with the TMDL Script for that object. 
+
+
+
 
 
 
