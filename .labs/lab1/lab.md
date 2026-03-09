@@ -551,11 +551,6 @@ TMDL View in Power BI Desktop allows you to view, edit, and apply changes to a s
 5. Click on apply to apply changes to your model
 6. Script all your measures by dragging measures from the Data pane to the model. Some of the measures use euros while other use dollars. We are now going to standarize the currency format so that all measure use the dollar format instead. Click on the Replace option (CTRL+F) from the ribbon to replace € with $. Preview your changes and apply them to the model. 
 <img width="959" height="502" alt="standarize currency" src="https://github.com/user-attachments/assets/f2e49027-572a-4506-a972-56ffdf6d2e40" />
-7. We are now going to rename all columns of the model to lower case. Script your whole model and enter the following patterns in the find and replace fields and select Replace All. Ensure the Regular Expression option is enabled and enter the following patterns:
-Action	Pattern/Replacement
-Find	(^\s+column\s+)(.+)
-Replace	$1\L$2
-<img width="959" height="503" alt="RegEx" src="https://github.com/user-attachments/assets/023ea5b6-3d08-4c19-a9e8-0b9fef684409" />
 
 
 
