@@ -391,10 +391,10 @@ Tabular Model Definition Language (TMDL) is a human‑readable, code‑based lan
 1. Open the `Sales.pbip` file with **Power BI Desktop**.
 
 2. From **Diagram View**, rearrange the position of the tables. This is a visual-only change, but it is still tracked as part of the semantic model.
-   Initial:
    <img width="364" height="319" alt="Diagram Layout 1" src="https://github.com/user-attachments/assets/b4ccb8ed-ae58-4ea3-b9ca-f87e4d8ba644" />
-   Final:
-   <img width="959" height="501" alt="Diagram Layout 2" src="https://github.com/user-attachments/assets/23e937e7-b7f1-42ea-8846-61ad8a0b273c" />
+   <img width="300" height="326" alt="Diagram Layour 2" src="https://github.com/user-attachments/assets/9bfc3280-42f1-401b-8a23-e5f4db0cdd34" />
+
+   
 
 4. Create a new calculated column in the **Customer** table.
     1. Select the **Customer** table.
@@ -412,7 +412,7 @@ Tabular Model Definition Language (TMDL) is a human‑readable, code‑based lan
         Customer[Age] < 65, 5,
         6
     )
-    ```
+```
 
 <img width="957" height="503" alt="new calculated column" src="https://github.com/user-attachments/assets/1311474f-2c12-4853-9bff-bf348c463187" />
 
