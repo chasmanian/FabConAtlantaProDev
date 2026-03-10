@@ -416,8 +416,8 @@ Tabular Model Definition Language (TMDL) is a human‑readable, code‑based lan
 
 <img width="957" height="503" alt="new calculated column" src="https://github.com/user-attachments/assets/1311474f-2c12-4853-9bff-bf348c463187" />
 
-    > [!NOTE]  
-    > Changes are only written to the PBIP files after you explicitly **save** them in Power BI Desktop. Until then, the PBIP files remain unchanged.
+> [!TIP]
+> *Changes are only written to the PBIP files after you explicitly **save** them in Power BI Desktop. Until then, the PBIP files remain unchanged.
 
 
 
