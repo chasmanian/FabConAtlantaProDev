@@ -600,6 +600,40 @@ TMDL View in Power BI Desktop allows you to view, edit, and apply changes to a s
 6. Script all your measures by dragging measures from the Data pane to the model. Some of the measures use euros while other use dollars. We are now going to standarize the currency format so that all measure use the dollar format instead. Click on the Replace option (CTRL+F) from the ribbon to replace € with $. Preview your changes and apply them to the model. 
 <img width="959" height="502" alt="standarize currency" src="https://github.com/user-attachments/assets/f2e49027-572a-4506-a972-56ffdf6d2e40" />
 
+### Edit TMDL Using TMDL View
+
+TMDL View in Power BI Desktop allows you to view, edit, and apply changes to a semantic model directly using Tabular Model Definition Language (TMDL). Unlike editing TMDL files externally in VS Code—where changes require restarting Power BI Desktop to reload the model—TMDL View applies changes directly to the open model.
+
+1. In Power BI Desktop, select the **TMDL View** icon located along the left side of the window.
+
+   <img width="958" height="501" alt="TMDL View" src="https://github.com/user-attachments/assets/bf595ebe-f86b-451f-9ded-bc4c876fa4d2" />
+
+2. Script any semantic model object (such as a table, measure, or column) by selecting objects from the **Data** pane and dragging them onto the code editor.
+
+   <img width="958" height="502" alt="Script TMDL View" src="https://github.com/user-attachments/assets/74259f7a-b98a-44f6-ae36-2529aa6b0c60" />
+
+   This generates a TMDL Script for the selected object. A TMDL Script includes a statement and the corresponding TMDL object definition that describes the desired state of the model object.
+
+   Alternatively, you can right-click an object in the Data view and select **Script TMDL to new tab** or **to the clipboard**:
+
+   <img width="332" height="354" alt="Script to TMDL" src="https://github.com/user-attachments/assets/e58393cd-bd3b-4833-b6db-332729a115e8" />
+
+3. Select a different semantic object (a table, measure, or column) and drag it into the editor. A new tab will be created with the TMDL Script for that object. If you save your changes in Power BI Desktop, your scripts will be saved as part of your PBIP under the **TMDLScripts** folder.
+
+4. Now we'll create a new role using TMDL. Script your Roles by dragging **Roles** from the Data pane to your editor. Add a new role for **Australia** and click **Preview** to preview the changes to the semantic model as a TMDL code diff.
+
+   <img width="959" height="503" alt="Role Australia Preview" src="https://github.com/user-attachments/assets/9372f187-b15c-4e88-b281-0b584aded482" />
+
+   Without closing the preview, add a new role for **United Kingdom**. Select **Update preview** to refresh the preview after changes.
+
+   <img width="958" height="502" alt="Preview Out Of Date" src="https://github.com/user-attachments/assets/b79ce403-b838-418b-b070-aba93e3be538" />
+
+5. Click **Apply** to apply changes to your model.
+
+6. Script all your measures by dragging **Measures** from the Data pane to the editor. Some measures use euros while others use dollars. We'll now standardize the currency format so all measures use the dollar format. Click the **Replace** option (`Ctrl+F`) from the ribbon to replace `€` with `$`. Preview your changes and apply them to the model.
+
+   <img width="959" height="502" alt="Standardize currency" src="https://github.com/user-attachments/assets/f2e49027-572a-4506-a972-56ffdf6d2e40" />
+
 
 
 
