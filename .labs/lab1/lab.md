@@ -1,4 +1,4 @@
-# Lab 1 — Power BI Project (PBIP) Fundamentals
+# Lab — Power BI Project (PBIP) Fundamentals
 
 ⏱️ Duration: 120 minutes
 
@@ -16,7 +16,7 @@ This lab gives you hands-on experience with the **Power BI Project (PBIP)** form
 
 | # | Section | Notes |
 | - | ------- | ----- |
-| 0 | [Prerequisites](#prerequisites) | Enable preview features in Power BI Desktop and install required software |
+| - | [Prerequisites](#prerequisites) | Enable preview features in Power BI Desktop and install required software |
 | 1 | [Save a PBIX to PBIP Format](#1-save-a-pbix-to-pbip-format) | Convert an existing PBIX file into the PBIP folder structure |
 | 2 | [Explore PBIP files and folders](#2-explore-pbip-files-and-folders) | Understand the key files and folders that make up a PBIP project |
 | 3 | [Version Control your PBIP](#3-version-control-your-pbip) | Initialize a Git repository, commit changes, view history, and restore previous versions |
@@ -39,7 +39,7 @@ This lab gives you hands-on experience with the **Power BI Project (PBIP)** form
     * [Microsoft Fabric extension](https://marketplace.visualstudio.com/items?itemName=fabric.vscode-fabric)
     * [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
   * [Git for Windows](https://gitforwindows.org/)  
-  * [Python 3.12](https://apps.microsoft.com/detail/9ncvdn91xzqp)
+  * [Python 3.13](https://apps.microsoft.com/detail/9pnrbtzxmb4z)	
 
 ## 1. Save a PBIX to PBIP Format
 

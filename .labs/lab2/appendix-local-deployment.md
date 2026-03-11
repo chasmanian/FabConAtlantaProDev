@@ -25,22 +25,18 @@
 
 ### Set up the Python extension in VS Code
 
-The deployment script requires **Python 3.12**. The easiest way to manage Python versions and run scripts in VS Code is through the official **Python extension**.
+The deployment script requires **Python 3.13**. The easiest way to manage Python versions and run scripts in VS Code is through the official **Python extension**.
 
 1. Open the **Extensions** panel (`Ctrl+Shift+X`) and search for **Python**. Install the extension published by **Microsoft** if it is not already installed.
 
     ![python-extension](resources/img/vscode-ext-python.png)
 
-2. After installation, the extension automatically detects all Python versions available on your system. You can see the currently selected interpreter in the **VS Code status bar** (bottom-right) whenever a `.py` file is open (for instance, `scripts/deploy.py`).
+2. After installation, the extension automatically detects all Python versions available on your system. You can see the currently selected interpreter in the **VS Code status bar** (bottom-right) whenever a `.py` file is open (for instance, `scripts/deploy.py`).    
 
-    ![python-interpreter](resources/img/vscode-py-current-interpreter.png)
-
-3. Click the Python version in the status bar (or press `Ctrl+Shift+P` and type **Python: Select Interpreter**) to open the interpreter picker. Select **Python 3.12.x** from the list.
-
-    ![select-interpreter](resources/img/vscode-py-select-interpreter.png)
+3. Click the Python version in the status bar (or press `Ctrl+Shift+P` and type **Python: Select Interpreter**) to open the interpreter picker. Select **Python 3.13.x** from the list.    
 
 > [!TIP]
-> If you have multiple Python versions installed (e.g., 3.10, 3.11, 3.12), the Python extension makes it easy to switch between them. The selected interpreter applies to the integrated terminal and any scripts you run from VS Code — no need to manage `PATH` or virtual environments manually.
+> If you have multiple Python versions installed (e.g., 3.10, 3.11, 3.12, 3.13), the Python extension makes it easy to switch between them. The selected interpreter applies to the integrated terminal and any scripts you run from VS Code — no need to manage `PATH` or virtual environments manually.
 
 ### A note on PowerShell
 
@@ -83,7 +79,7 @@ PBI_WORKSPACE_DEV=Workshop - Lab 2 (DEV)
 
 ## Install Python dependencies
 
-Open the integrated terminal in VS Code (`Ctrl + '`). Verify that the terminal is using **Python 3.12** — check the status bar at the bottom or run `python --version`.
+Open the integrated terminal in VS Code (`Ctrl + '`). Verify that the terminal is using **Python 3.13** — check the status bar at the bottom or run `python --version`.
 
 Then install the required packages:
 
@@ -100,17 +96,15 @@ This installs `fabric-cicd` and `python-dotenv` as well as any other transient d
 > python -m pip install -r requirements.txt
 > ```
 >
-> Or, if you need to target Python 3.12 explicitly by its full path (common on Windows where both Python 3.11 and 3.12 are installed side-by-side), use:
+> Or, if you need to target Python 3.13 explicitly by its full path (common on Windows where multiple Python runtimes are installed side-by-side), use:
 >
 > ```bash
 > # Windows example
-> C:\Users\<YourUser>\AppData\Local\Programs\Python\Python312\python.exe -m pip install -r requirements.txt
+> C:\Users\<YourUser>\AppData\Local\Programs\Python\Python313\python.exe -m pip install -r requirements.txt
 >
-> # macOS / Linux example
-> /usr/local/bin/python3.12 -m pip install -r requirements.txt
 > ```
 >
-> `fabric-cicd` requires **Python 3.12**, so make sure the interpreter you use is 3.12.
+> `fabric-cicd` requires **Python 3.13**, so make sure the interpreter you use is 3.13.
 
 > [!TIP]
 > If you have multiple Python versions installed and want to avoid confusion, consider using a virtual environment for this project. The Python extension in VS Code can automatically create and manage **virtual environments** for you. Learn more in the [VS Code Python documentation](https://code.visualstudio.com/docs/python/environments).
@@ -121,7 +115,7 @@ There are two ways to run the deployment script. The recommended approach for th
 
 ### Option A: Using the VS Code Extension
 
-1. Make sure **Python 3.12** is selected in the status bar (see above).
+1. Make sure **Python 3.13** is selected in the status bar (see above).
 
 2. Open the `deploy.py` script in VS Code.
 
@@ -157,8 +151,6 @@ python scripts/deploy.py --workspace_name "My Custom Workspace"
 
 The advantage of this approach is that you can specify command-line arguments, but the VS Code method is more streamlined for local development and testing.
 
-> [!TIP]
-> Depending on your installation you might have to use `python3` instead of `python`. If the command points to a different version than 3.12, use the full path to your Python 3.12 installation or use the VS Code approach above, which makes switching interpreters straightforward.
 
 ## Data refresh after first deployment
 
