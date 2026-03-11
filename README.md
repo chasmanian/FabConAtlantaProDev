@@ -33,13 +33,12 @@ By the end of this workshop, you will:
   - Access to a Fabric / Power BI tenant
     - You can use your existing organizational tenant but you must have admin permissions.
       - You can also create your own tenant using the [Microsoft 365 Developer Program](https://developer.microsoft.com/en-us/microsoft-365/dev-program)
-    - Power BI Pro license
-    - Access to a Fabric Capacity or [Trial](https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial)
-    - Access to create and authorize a service principal in Fabric for automated CI/CD deployment. See [Create a Microsoft Entra ID app](https://learn.microsoft.com/en-us/rest/api/fabric/articles/get-started/create-entra-app).
+    - Power BI Pro license    
+    - Access to a service principal with permission to call Fabric APIs, or the ability to create and authorize a service principal in Fabric. See [Create a Microsoft Entra ID app](https://learn.microsoft.com/en-us/rest/api/fabric/articles/get-started/create-entra-app).
   - [GitHub account](https://github.com/signup)
   - [GitHub Copilot Free or Pro](https://github.com/github-copilot/pro)
 - Software
   - [Power BI Desktop](https://pbi.onl/download)
   - [Visual Studio Code](https://code.visualstudio.com/download)
   - [Git for Windows](https://gitforwindows.org/)
-  - [Python 3.12](https://apps.microsoft.com/detail/9ncvdn91xzqp)
+  - [Python 3.13](https://apps.microsoft.com/detail/9pnrbtzxmb4z)	

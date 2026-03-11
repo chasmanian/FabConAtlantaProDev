@@ -1,4 +1,4 @@
-# Appendix A: Service Principal Setup
+# Appendix: Service Principal Setup
 
 > This appendix walks through the one-time setup of a service principal in Microsoft Entra ID. If your workshop environment already has a service principal provisioned, you can skip this section.
 
