@@ -27,7 +27,7 @@ By the end of this workshop, you will:
 ## Requirements
 
 > [!IMPORTANT]
-> * We can provide a Fabric Account and GitHub Copilot license for this workshop. Request access in this [form](https://forms.office.com/e/47Jx6CqPSq)
+> * We can provide a Fabric Account and GitHub Copilot license for this workshop. Request access in this [form](https://forms.cloud.microsoft/r/FDAeQ8byEW)
 
 - Licenses
   - Access to a Fabric / Power BI tenant
