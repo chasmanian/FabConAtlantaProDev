@@ -35,7 +35,7 @@ This lab shows how AI can supercharge your Power BI developments - from batch-ed
   * [GitHub Copilot Chat extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
   * [Power BI Modeling MCP extension](https://marketplace.visualstudio.com/items?itemName=analysis-services.powerbi-modeling-mcp)
 
-* Ensure you have access to [GitHub Copilot Free or Pro](https://github.com/github-copilot/pro)
+* Ensure you have access to [GitHub Copilot Free, Pro or Business](https://github.com/github-copilot/pro)
 
 ## 1. Setup Environment with VS Code
 

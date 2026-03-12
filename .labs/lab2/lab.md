@@ -26,7 +26,6 @@ No local setup is required for this lab - all you need is a GitHub account and t
 ## 🛠️ Prerequisites
 
 - [GitHub account](https://github.com/signup)
-- Access to a service principal with permission to call Fabric APIs, or the ability to create and authorize a service principal in Fabric. See [Create a Microsoft Entra ID app](https://learn.microsoft.com/en-us/rest/api/fabric/articles/get-started/create-entra-app).
 
 ## Introduction to fabric-cicd
 
