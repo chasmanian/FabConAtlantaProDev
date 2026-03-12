@@ -394,6 +394,7 @@ If you want to explore further after the workshop:
 
 - [Reference repository: workshops-cicd-demo](https://github.com/RuiRomano/workshops-cicd-demo) - the template used for this lab
 - [fabric-cicd documentation](https://microsoft.github.io/fabric-cicd/latest/)
+- [tutorial-fabric-cicd-azure-devops](https://learn.microsoft.com/en-us/fabric/cicd/tutorial-fabric-cicd-azure-devops)
 - [Deploy Power BI projects using fabric-cicd](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-deploy-fabric-cicd)
 - [Tabular Editor Best Practice Analyzer](https://docs.tabulareditor.com/te2/Best-Practice-Analyzer.html)
 - [PBI-InspectorV2](https://github.com/NatVanG/PBI-InspectorV2)
