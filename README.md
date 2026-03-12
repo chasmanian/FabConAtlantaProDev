@@ -1,4 +1,4 @@
-# ⚡ Power BI Mastery: End-to-End Analytics for Pro Developers
+# Power BI Mastery: End-to-End Analytics for Pro Developers
 
 Hands-on deep dive into Power BI developer mode and the powerful capabilities unlocked by Power BI Project files (PBIP). In this session, you’ll explore TMDL and PBIR file formats, learning how they open the door to structured, source-controlled development workflows.
 
