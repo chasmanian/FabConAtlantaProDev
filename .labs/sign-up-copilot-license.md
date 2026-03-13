@@ -23,10 +23,9 @@ This guide walks you through the process of signing up for a GitHub Copilot lice
 ## Step 2: Accept the GitHub Organization Invitation
 
 1. Check the **email associated with your GitHub account** for an invitation to join the workshop organization.
-2. Check the box **Ask for a Copilot seat**
-   ![join organization](.labs/lab3/resources/img/join-organization.png)
+2. Check the box **Ask for a Copilot seat**  
+   ![join organization](lab3/resources/img/join-organization.png)
 4. Wait for the seat to be provisioned — this may take a few moments.
-
 
 
 ## Step 3: Restart VS Code and Log In
