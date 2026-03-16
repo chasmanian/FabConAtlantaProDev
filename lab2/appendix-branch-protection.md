@@ -2,7 +2,7 @@
 
 > This is a one-time administrative setup step. See [About rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets) for more information.
 
-**Goal**: Protect the `main` branch so that changes can only land through a reviewed and quality-checked Pull Request.
+Protect the `main` branch so that changes can only land through a reviewed and quality-checked Pull Request.
 
 ## Set up branch protection rules
 
