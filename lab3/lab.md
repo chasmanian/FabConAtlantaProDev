@@ -1,4 +1,4 @@
-# Lab — Power BI Development with AI
+# Lab - Power BI Development with AI
 
 ⏱️ Duration: 60 minutes
 

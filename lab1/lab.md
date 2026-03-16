@@ -1,4 +1,4 @@
-# Lab — Power BI Project (PBIP) Fundamentals
+# Lab - Power BI Project (PBIP) Fundamentals
 
 ⏱️ Duration: 120 minutes
 
