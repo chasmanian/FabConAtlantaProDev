@@ -138,7 +138,7 @@ The target workspaces **must already exist** in Microsoft Fabric before you can 
 
 2. Authorize the service principal with at least **Contributor** permissions to both workspaces.
 
-    Get the Service Principal name from [Service Principal Details](https://1drv.ms/t/c/5d0350bbe4220916/IQAhwo1rpf_4RI0GTma930yBAWV77VYFvbnpDhFU3KafIBs?e=8BCNzb).
+    Copy the Service Principal name from [Service Principal Details](https://1drv.ms/t/c/5d0350bbe4220916/IQAhwo1rpf_4RI0GTma930yBAWV77VYFvbnpDhFU3KafIBs?e=8BCNzb).
 
     ![add SP to workspace](resources/img/fabric-workspace-add-service-principal.png)
 
