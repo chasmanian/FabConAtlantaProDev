@@ -7,9 +7,9 @@ This lab shows how AI can supercharge your Power BI developments - from batch-ed
 ## What you will learn
 
 - How to use **GitHub Copilot** to batch-edit TMDL scripts and make semantic model changes as code
-- How to use **AI agents** to read, understand, and modify PBIR report files
-- How to connect and use the **Power BI Modeling MCP server** to query and update your semantic model through AI
-- How to enforce **team best practices** on a semantic model using AI-assisted review
+- How to use **GitHub Copilot** to read, understand, and modify PBIR report files
+- How to use the **Power BI Modeling MCP server** to update your semantic model through AI
+- How to enforce **team best practices** on a semantic model using AI-Agents
 
 ## Lab structure
 
