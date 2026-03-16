@@ -15,7 +15,7 @@ This lab shows how AI can supercharge your Power BI developments - from batch-ed
 
 | # | Section | Notes |
 | - | ------- | ----- |
-| - | [Prerequisites](#-prerequisites) | Install required VS Code extensions and sign in with GitHub |
+| - | [Prerequisites](#️-prerequisites) | Install required VS Code extensions and sign in with GitHub |
 | 1 | [Setup Environment with VS Code](#1-setup-environment-with-vs-code) | Configure your workspace with skills, extensions, and GitHub account |
 | 2 | [Use AI with TMDL Scripts](#2-use-ai-with-tmdl-scripts) | Batch-edit semantic model definitions using GitHub Copilot |
 | 3 | [Use AI with PBIR](#3-use-ai-with-pbir) | Use AI agents to understand and update report files |

@@ -19,7 +19,7 @@ No local setup is required for this lab - all you need is a GitHub account and t
 
 | # | Section | Notes |
 | - | ------- | ----- |
-| - | [Prerequisites](#-prerequisites) | GitHub account and service principal credentials  |
+| - | [Prerequisites](#️-prerequisites) | GitHub account and service principal credentials  |
 | - | [Introduction to fabric-cicd](#introduction-to-fabric-cicd) | Overview of the Microsoft-recommended deployment library and how it works |
 | 1 | [Setup GitHub Repository from template](#1-setup-github-repository-from-template) | Create your repo from the template, configure the `AZURE_CREDENTIALS` secret, and set up Fabric workspaces |
 | 2 | [GitHub Actions workflows](#2-github-actions-workflows) | Explore the pre-built `deploy` and `bpa` workflows; trigger your first automated deployment |
