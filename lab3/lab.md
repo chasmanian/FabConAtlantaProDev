@@ -99,6 +99,10 @@ This lab shows how AI can supercharge your Power BI developments - from batch-ed
     
     In case of premium models not being available select `GPT-5 mini` model.
 
+> [!TIP]
+> - Its is recommended to use [GitHub Copilot Pro](https://github.com/github-copilot/pro) subscription to access premium reasoning models such as `Claude Sonnet 4.6`.
+> - The LLM model you select directly influences the quality of the outputs you get from AI agents. For the best results, choose a deep-reasoning model such as `GPT-5.1` or `Claude Sonnet 4.6`. See [model-comparison](https://docs.github.com/en/copilot/reference/ai-models/model-comparison) for more information.
+
 6. Write the following prompt
    
     ```
@@ -109,8 +113,6 @@ This lab shows how AI can supercharge your Power BI developments - from batch-ed
     ![vscode-copilot-skill-list](resources/img/vscode-copilot-skill-list.png)
 
 > [!TIP]
-> - It is recommended to start a [GitHub Copilot Pro trial](https://github.com/github-copilot/pro) subscription to access premium reasoning models such as `Claude Sonnet 4.6`.
-> - The LLM model you select directly influences the quality of the outputs you get from AI agents. For the best results, choose a deep-reasoning model such as `GPT-5.1` or `Claude Sonnet 4.6`. See [model-comparison](https://docs.github.com/en/copilot/reference/ai-models/model-comparison) for more information.
 > - Skills are a powerful and standard reusable way to provide AI the domain-specific knowledge it needs to do the work. By placing skill files in your project, every team member benefits from consistent, high-quality AI output - without needing to remember complex prompts. Learn more about skills in [agentskills.io](https://agentskills.io/home). 
 > - Find more Power BI skill examples in [aka.ms/powerbi-agentic](https://aka.ms/powerbi-agentic)
 
