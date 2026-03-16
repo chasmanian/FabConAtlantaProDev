@@ -1,6 +1,6 @@
 # Lab — Power BI Development with AI
 
-⏱️ Duration: 90 minutes
+⏱️ Duration: 60 minutes
 
 This lab shows how AI can supercharge your Power BI developments - from batch-editing TMDL scripts with GitHub Copilot, to using AI agents to understand and update PBIR report files, to enforcing team best practices on a semantic model through an MCP server.
 

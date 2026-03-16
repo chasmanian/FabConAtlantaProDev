@@ -1,6 +1,6 @@
 # Lab - Power BI and CI/CD
 
-⏱️ Duration: 90 minutes
+⏱️ Duration: 60 minutes
 
 In this lab, you will learn how to build Power BI solutions in a more reliable, scalable, and team‑friendly way by using CI/CD (Continuous Integration and Continuous Deployment). Instead of manually updating reports and models, you’ll see how changes can be automatically tested and deployed using standard development practices. This approach helps reduce mistakes, makes collaboration easier, and ensures that what you build in development is safely promoted to test and production environments. This is especially useful for teams working on complex Power BI projects or managing enterprise‑scale solutions.
 
