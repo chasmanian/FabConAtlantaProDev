@@ -4,8 +4,6 @@
 
 In this lab, you will learn how to build Power BI solutions in a more reliable, scalable, and team‑friendly way by using CI/CD (Continuous Integration and Continuous Deployment). Instead of manually updating reports and models, you’ll see how changes can be automatically tested and deployed using standard development practices. This approach helps reduce mistakes, makes collaboration easier, and ensures that what you build in development is safely promoted to test and production environments. This is especially useful for teams working on complex Power BI projects or managing enterprise‑scale solutions.
 
-This lab guides you through building a production-grade CI/CD pipeline for a Power BI project on GitHub. Starting from a pre-configured repository template, you will configure automated deployments using GitHub Actions, enforce quality gates with the Best Practice Analyzer, and practice the Pull Request workflow that ties it all together.
-
 No local setup is required for this lab - all you need is a GitHub account and the provided service principal credentials. An optional [appendix-local-deployment](appendix-local-deployment.md) is available if you want to run deployments from your local machine.
 
 ## What you will learn
