@@ -1,0 +1,75 @@
+table 'Time Intelligence'
+	lineageTag: 738c9987-f90b-4e78-8094-838b1d572bf5
+
+	calculationGroup
+		precedence: 1
+
+		calculationItem YTD =
+				CALCULATE (
+				    SELECTEDMEASURE (),
+				    DATESYTD ( 'Calendar'[Date] )
+				)
+
+		calculationItem QTD =
+				
+				CALCULATE (
+				    SELECTEDMEASURE (),
+				    DATESQTD ( 'Calendar'[Date] )
+				)
+
+		calculationItem MTD =
+				CALCULATE (
+				    SELECTEDMEASURE (),
+				    DATESMTD ( 'Calendar'[Date] )
+				)
+
+		calculationItem PY =
+				
+				CALCULATE (
+				    SELECTEDMEASURE (),
+				    SAMEPERIODLASTYEAR ( 'Calendar'[Date] )
+				)
+
+		calculationItem YOY% =
+				
+				DIVIDE (
+				    CALCULATE (
+				        SELECTEDMEASURE (),
+				        'Time Intelligence'[Show as] = "YOY"
+				    ),
+				    CALCULATE (
+				        SELECTEDMEASURE (),
+				        'Time Intelligence'[Show as] = "PY"
+				    )
+				)
+
+			formatStringDefinition = "#,##0.00%"
+
+		calculationItem YOY =
+				
+				SELECTEDMEASURE ()
+				    - CALCULATE (
+				        SELECTEDMEASURE (),
+				        'Time intelligence'[Show as] = "PY"
+				    )
+
+		calculationItem Current = SELECTEDMEASURE()
+
+	column 'Show as'
+		dataType: string
+		lineageTag: 42496374-f11c-4de0-9d9f-573f6bf915e3
+		summarizeBy: none
+		sourceColumn: Name
+		sortByColumn: Ordinal
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ordinal
+		dataType: int64
+		formatString: 0
+		lineageTag: 2b5f9e3a-3f95-4832-a85d-5ad1efa7156f
+		summarizeBy: none
+		sourceColumn: Ordinal
+
+		annotation SummarizationSetBy = User
+
