@@ -1,9 +1,9 @@
 {
-    "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definitionProperties/2.0.0/schema.json",
-    "version": "4.0",
-    "datasetReference": {
-        "byConnection": {      
-            "connectionString": "Data Source=\"powerbi://api.powerbi.com/v1.0/myorg/Myworkspace\";initial catalog=Sales;access mode=readonly;integrated security=ClaimsToken;semanticmodelid=3bcc4f98-6678-4257-be08-368cf86b95d6"
-        }
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definitionProperties/2.0.0/schema.json",
+  "version": "4.0",
+  "datasetReference": {
+    "byConnection": {
+      "connectionString": "Data Source=pbiazure://api.powerbi.com;initial catalog=3bcc4f98-6678-4257-be08-368cf86b95d6;identity provider=\"https://login.microsoftonline.com/common, https://analysis.windows.net/powerbi/api, 7f67af8a-fedc-4b08-8b4e-37c4d127b6cf\";integrated security=ClaimsToken;semanticmodelid=3bcc4f98-6678-4257-be08-368cf86b95d6;modelid=16934556"
     }
+  }
 }
