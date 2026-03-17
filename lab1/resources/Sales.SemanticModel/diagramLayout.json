@@ -5,7 +5,7 @@
       "ordinal": 0,
       "scrollPosition": {
         "x": 0,
-        "y": 82.906976744186039
+        "y": 0
       },
       "nodes": [
         {
@@ -16,7 +16,7 @@
           "nodeIndex": "Calendar",
           "nodeLineageTag": "bfa0074c-0a44-4a9c-8bba-c87af778b3d7",
           "size": {
-            "height": 1000,
+            "height": 530.565499028097,
             "width": 254
           },
           "zIndex": 8
@@ -42,7 +42,7 @@
           "nodeIndex": "Customer",
           "nodeLineageTag": "04227f5a-0aeb-4448-b5c5-dbf3e276da85",
           "size": {
-            "height": 614.5452740000004,
+            "height": 479.61799228352527,
             "width": 234
           },
           "zIndex": 9
@@ -55,7 +55,7 @@
           "nodeIndex": "Product",
           "nodeLineageTag": "e9374b9a-faee-4f9e-b2e7-d9aafb9d6a91",
           "size": {
-            "height": 624.44976000000031,
+            "height": 473.94872181102392,
             "width": 232
           },
           "zIndex": 5
@@ -68,7 +68,7 @@
           "nodeIndex": "Store",
           "nodeLineageTag": "54d5f884-12db-4e03-a120-08cd725db2c4",
           "size": {
-            "height": 618.42410200000029,
+            "height": 336.98716058661427,
             "width": 234
           },
           "zIndex": 4
@@ -88,7 +88,7 @@
         }
       ],
       "name": "All tables",
-      "zoomValue": 74.782608695652172,
+      "zoomValue": 35.574718018008525,
       "pinKeyFieldsToTop": false,
       "showExtraHeaderInfo": false,
       "hideKeyFieldsWhenCollapsed": false,
