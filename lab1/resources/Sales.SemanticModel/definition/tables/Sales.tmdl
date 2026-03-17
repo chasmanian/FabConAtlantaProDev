@@ -8,17 +8,15 @@ table Sales
 	measure 'Sales Qty' = SUM('Sales'[Quantity])
 		formatString: #,##0
 		lineageTag: c2ff8d96-2f03-4005-84df-91458625b73b
-		displayFolder: QTY
-
-    measure 'Sales Qty (LY)' = IF ([Sales Qty] > 0, CALCULATE([Sales Qty], SAMEPERIODLASTYEAR('Calendar'[Date])))
-        formatString: #,##0
-        lineageTag: 019cfc45-620a-76dc-b69f-227c1e810ba7
-		displayFolder: QTY
-    
-    measure 'Sales Qty Avg per Day' = AVERAGEX(VALUES('Calendar'[Date]), [Sales Qty])
-        formatString: #,##0
-        lineageTag: 019cfc45-828d-7642-80ee-922f85883b43
-		displayFolder: QTY
+		displayFolder: Qty
+	measure 'Sales Qty (LY)' = IF ([Sales Qty] > 0, CALCULATE([Sales Qty], SAMEPERIODLASTYEAR('Calendar'[Date])))
+		formatString: #,##0
+		lineageTag: 019cfc4f-2a3e-707b-bbcd-5c25d64f9ae3
+		displayFolder: Qty
+	measure 'Sales Qty Avg per Day' = AVERAGEX(VALUES('Calendar'[Date]), [Sales Qty])
+		formatString: #,##0
+		lineageTag: 019cfc4f-389b-746b-b1fc-10efd87530bf
+		displayFolder: Qty
 
 	measure 'Sales Amount' = 
 			SUMX(
